@@ -38,6 +38,15 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permite elegir una foto para identificar tus animales.",
+          "cameraPermission": "Permite tomar una foto para identificar tus animales.",
+          "microphonePermission": false
+        }
       ]
     ],
     "experiments": {
